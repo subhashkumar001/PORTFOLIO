@@ -25,7 +25,7 @@ export const content = {
     email: "student@example.com", // [TODO: Replace with your actual email]
     github: "https://github.com/[USERNAME]",
     linkedin: "https://linkedin.com/in/[USERNAME]",
-    resumePdf: "/resume.pdf",
+    resumePdf: "./resume.pdf",
 
     // Optional photo url. If null/empty, Hero renders the elegant 160px monogram frame
     photoUrl: null,
@@ -99,7 +99,7 @@ export const content = {
         github: "https://github.com/[USERNAME]/cli-expense-ledger",
         live: null,
         learned: "Mastered struct serialization to disk, defensive file pointer operations, and zero-memory-leak hygiene using Valgrind.",
-        previewImg: "/images/project-1.svg"
+        previewImg: "./images/project-1.svg"
       },
       {
         number: "02",
@@ -109,7 +109,7 @@ export const content = {
         github: "https://github.com/[USERNAME]/campus-menu-viewer",
         live: "https://example.com/demo",
         learned: "Handled timezone/date edge cases across device clocks and built an accessible table view without third-party UI libraries.",
-        previewImg: "/images/project-2.svg"
+        previewImg: "./images/project-2.svg"
       },
       {
         number: "03",
@@ -119,7 +119,7 @@ export const content = {
         github: "https://github.com/[USERNAME]/sorting-visualizer",
         live: "https://example.com/sorting",
         learned: "Explored non-blocking animation loops with requestAnimationFrame and state reconciliation during high-frequency array swaps.",
-        previewImg: "/images/project-3.svg"
+        previewImg: "./images/project-3.svg"
       }
     ]
   },
@@ -164,7 +164,7 @@ export const content = {
     socials: [
       { label: "GitHub ↗", href: "https://github.com/[USERNAME]" },
       { label: "LinkedIn ↗", href: "https://linkedin.com/in/[USERNAME]" },
-      { label: "Resume ↗", href: "/resume.pdf" }
+      { label: "Resume ↗", href: "./resume.pdf" }
     ]
   },
 
