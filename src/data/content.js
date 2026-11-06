@@ -9,7 +9,7 @@ export const content = {
   owner: {
     fullName: "[SUBHASH KUMAR]",
     firstName: "[SUBHASH]",
-    initial: "A", // Used for monogram fallback and favicon
+    initial: "S", // Used for monogram fallback and favicon
     course: "B.Tech [COMPUTER SCIENCE AND ENGINEERING], 1st year, [LPU], [CITY]",
     branch: "[COMPUTER SCIENCE AND ENGINEERING]",
     year: "1st year",

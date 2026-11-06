@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~dp0"
 set "PATH=C:\Users\hp\AppData\Local\Programs\nodejs;%PATH%"
-npm run dev
-
+call npm run dev
+pause

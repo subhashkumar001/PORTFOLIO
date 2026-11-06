@@ -31,8 +31,8 @@ export default function App() {
     setCurrentPath('/');
   };
 
-  // Render 404 page if path is explicitly /404 or any unrecognized non-root path
-  if (currentPath === '/404' || (currentPath !== '/' && !currentPath.startsWith('/index.html'))) {
+  // Render 404 page only if path explicitly ends with /404
+  if (currentPath.endsWith('/404')) {
     return <NotFound onGoHome={navigateToHome} />;
   }
 
