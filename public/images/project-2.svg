@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#EBE6DB" stroke="#CFC8B8" stroke-width="1"/>
+  <defs>
+    <pattern id="grid2" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#DFD8C7" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="240" height="160" fill="url(#grid2)"/>
+  
+  <!-- Notebook table card -->
+  <rect x="24" y="24" width="192" height="112" fill="#F4F1EA" stroke="#CFC8B8" stroke-width="1"/>
+  <rect x="24" y="24" width="192" height="22" fill="#EBE6DB"/>
+  <text x="36" y="38" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#16140F">SCHEDULE · WEDNESDAY</text>
+  <circle cx="204" cy="35" r="4" fill="#1F7A4D"/>
+  
+  <line x1="24" y1="46" x2="216" y2="46" stroke="#CFC8B8" stroke-width="1"/>
+  
+  <text x="36" y="64" font-family="'JetBrains Mono', monospace" font-size="8" fill="#6B665B">08:00 BREAKFAST</text>
+  <text x="120" y="64" font-family="'Hanken Grotesk', sans-serif" font-size="9" fill="#16140F">Poha, Sprouts, Tea</text>
+  <line x1="36" y1="72" x2="204" y2="72" stroke="#E5DEC9" stroke-width="1"/>
+  
+  <text x="36" y="88" font-family="'JetBrains Mono', monospace" font-size="8" fill="#E8431C">12:30 LUNCH [NOW]</text>
+  <text x="120" y="88" font-family="'Hanken Grotesk', sans-serif" font-size="9" font-weight="600" fill="#E8431C">Dal Tadka, Rice, Roti</text>
+  <line x1="36" y1="96" x2="204" y2="96" stroke="#E5DEC9" stroke-width="1"/>
+  
+  <text x="36" y="112" font-family="'JetBrains Mono', monospace" font-size="8" fill="#6B665B">20:00 DINNER</text>
+  <text x="120" y="112" font-family="'Hanken Grotesk', sans-serif" font-size="9" fill="#16140F">Paneer Bhurji, Salad</text>
+</svg>
+

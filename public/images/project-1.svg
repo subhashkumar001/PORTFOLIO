@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#EBE6DB" stroke="#CFC8B8" stroke-width="1"/>
+  <!-- Subtle grid lines -->
+  <defs>
+    <pattern id="grid1" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#DFD8C7" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="240" height="160" fill="url(#grid1)"/>
+  
+  <!-- Terminal window outline -->
+  <rect x="20" y="24" width="200" height="112" fill="#16140F" stroke="#333" stroke-width="1"/>
+  <rect x="20" y="24" width="200" height="18" fill="#222"/>
+  <circle cx="32" cy="33" r="3" fill="#E8431C"/>
+  <circle cx="42" cy="33" r="3" fill="#6B665B"/>
+  <circle cx="52" cy="33" r="3" fill="#6B665B"/>
+  <text x="70" y="36" font-family="'JetBrains Mono', monospace" font-size="8" fill="#EDE8DC">ledger.c -- valgrind: 0 errors</text>
+  
+  <!-- Content lines -->
+  <text x="32" y="60" font-family="'JetBrains Mono', monospace" font-size="9" fill="#1F7A4D">$ ./ledger --summary</text>
+  <text x="32" y="76" font-family="'JetBrains Mono', monospace" font-size="8" fill="#EDE8DC">[2024-10-12] Books: ₹450</text>
+  <text x="32" y="90" font-family="'JetBrains Mono', monospace" font-size="8" fill="#EDE8DC">[2024-10-14] Lab kit: ₹1,200</text>
+  <text x="32" y="106" font-family="'JetBrains Mono', monospace" font-size="8" fill="#FF6A3D">Total records written: 14</text>
+  <line x1="32" y1="116" x2="190" y2="116" stroke="#444" stroke-width="1"/>
+  <text x="32" y="126" font-family="'JetBrains Mono', monospace" font-size="7" fill="#888">heap usage: 2 allocs, 2 frees</text>
+</svg>
+

@@ -1,0 +1,94 @@
+:root {
+  /* Light Theme (Default) */
+  --color-bg: #F4F1EA;
+  --color-surface: #EBE6DB;
+  --color-ink: #16140F;
+  --color-secondary: #6B665B;
+  --color-border: #CFC8B8;
+  --color-accent: #E8431C;
+  --color-accent-hover: #C73512;
+  --color-selection-bg: #E8431C;
+  --color-selection-text: #F4F1EA;
+  --color-status-dot: #1F7A4D;
+
+  --color-footer-bg: #16140F;
+  --color-footer-text: #EDE8DC;
+  --color-footer-border: #2E2B25;
+  --color-footer-wordmark: #1B1A17;
+
+  /* Typography */
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme */
+  --color-bg: #121110;
+  --color-surface: #1B1A17;
+  --color-ink: #EDE8DC;
+  --color-secondary: #9A9486;
+  --color-border: #2E2B25;
+  --color-accent: #FF6A3D;
+  --color-accent-hover: #FF8559;
+  --color-selection-bg: #FF6A3D;
+  --color-selection-text: #121110;
+  --color-status-dot: #3DBE7F;
+
+  --color-footer-bg: #0C0B0A;
+  --color-footer-text: #EDE8DC;
+  --color-footer-border: #2E2B25;
+  --color-footer-wordmark: #161512;
+}
+
+/* Base selection styling */
+::selection {
+  background-color: var(--color-selection-bg);
+  color: var(--color-selection-text);
+}
+
+/* Custom thin scrollbar (8px) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+/* Accessible focus outline */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* All buttons, inputs, pills strictly 0 border-radius */
+button, input, textarea, select {
+  border-radius: 0;
+}
+
+/* Theme toggle focus ring */
+.theme-toggle-btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

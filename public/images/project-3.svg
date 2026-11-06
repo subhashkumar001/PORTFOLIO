@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#EBE6DB" stroke="#CFC8B8" stroke-width="1"/>
+  <defs>
+    <pattern id="grid3" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#DFD8C7" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="240" height="160" fill="url(#grid3)"/>
+  
+  <rect x="20" y="24" width="200" height="112" fill="#16140F" stroke="#2E2B25" stroke-width="1"/>
+  
+  <text x="32" y="42" font-family="'JetBrains Mono', monospace" font-size="8" fill="#9A9486">QUICKSORT · PIVOT: ARR[7] = 64</text>
+  <line x1="32" y1="48" x2="208" y2="48" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Bar chart elements -->
+  <rect x="34" y="98" width="8" height="24" fill="#EDE8DC"/>
+  <rect x="46" y="86" width="8" height="36" fill="#EDE8DC"/>
+  <rect x="58" y="74" width="8" height="48" fill="#EDE8DC"/>
+  <rect x="70" y="60" width="8" height="62" fill="#EDE8DC"/>
+  <rect x="82" y="106" width="8" height="16" fill="#EDE8DC"/>
+  <rect x="94" y="52" width="8" height="70" fill="#E8431C"/> <!-- active swap -->
+  <rect x="106" y="80" width="8" height="42" fill="#E8431C"/> <!-- active swap -->
+  <rect x="118" y="68" width="8" height="54" fill="#1F7A4D"/> <!-- pivot -->
+  <rect x="130" y="90" width="8" height="32" fill="#EDE8DC"/>
+  <rect x="142" y="64" width="8" height="58" fill="#EDE8DC"/>
+  <rect x="154" y="82" width="8" height="40" fill="#EDE8DC"/>
+  <rect x="166" y="56" width="8" height="66" fill="#EDE8DC"/>
+  <rect x="178" y="94" width="8" height="28" fill="#EDE8DC"/>
+  <rect x="190" y="72" width="8" height="50" fill="#EDE8DC"/>
+  
+  <text x="32" y="128" font-family="'JetBrains Mono', monospace" font-size="7" fill="#1F7A4D">Swaps: 42 · Comparisons: 189</text>
+</svg>
+
